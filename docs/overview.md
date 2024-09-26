@@ -1,17 +1,17 @@
-# Sensory Function: Eye and Ear Care
+# Mpox Epi
 
 ## Release note 
 
-- [Release note](#imm-mpox-release-note)
+- [Release note](#mpox-epi-release-note)
 
 ## Design
 
-- [Design](#imm-mpox-design)
+- [Design](#mpox-epi-design)
 
 ## Installation
 
-- [Installation guide](#imm-mpox-installation)
+- [Installation guide](#mpox-epi-installation)
 
 ## Metadata reference
 
-- [Version X.X.X](https://packages.dhis2.org/en/IMM_MPOX/X.X.X/DHIS2.40/IMM_MPOX_COMPLETE_X.X.X_DHIS2.40.xlsx)
+- [Version X.X.X](https://packages.dhis2.org/en/MPOX_EPI/X.X.X/DHIS2.40/MPOX_EPI_COMPLETE_X.X.X_DHIS2.40.xlsx)
