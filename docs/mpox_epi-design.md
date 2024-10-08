@@ -60,7 +60,7 @@ The dataset includes a simple section on AEFIs disaggregated by seriousness.
 
 Finally, a section on staff expected and available at point of care. This section is aimed at providing a snapshot of the availability of medical staff during the roll-out of the vaccination activities.
 
-![Staff availability](resources/image/epimpox_003)
+![Staff availability](resources/image/epimpox_003.png)
 
 #### Population Dataset
 
