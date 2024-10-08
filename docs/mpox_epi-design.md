@@ -145,7 +145,7 @@ Scheduling an event is also possible in the Schedule tab next to the report tab:
 
 This solution will also easily flag any overdue appointment for follow-up vaccinations. More information on this solution can be found in the [“Scheduled date in edit event form”](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/tracking-individual-level-data/capture.html#scheduled-date-in-edit-event-form) section of the Capture document. 
 
-![Scheduling an event](resources/image/eirmpox_008.png)
+![Scheduling an event](resources/image/eirmpox_008.mp4)
 
 ## Adverse Events Following Immunisation
 
