@@ -129,7 +129,21 @@ The AEFI is associated with an alert soliciting the user to conduct an EFI inves
 
 #### Scheduling the next dose
 
-There is currently no way for a tracker to assign a date for the next event based on a data element, so what can be done is to configure the tracker to automatically autoschedule the next vaccination date to X days from the first dose. This must be modified to match the interval used in the country by changing the setting for the vaccination program stage in the maintenance app.
+There is currently no way for a tracker to automatically assign a date for the next event based on a data element so we've 2 configuration options to schedule the next dose being option 1 how it's currently setup.
+
+##### Option 1
+Scheduling an event is possible in the Schedule tab next to the report tab:
+
+![Schedule the next dose](resources/image/eirmpox_009.png)
+
+In order to schedule an event with the suggested date for next dose, you should follow the data flow shown in the video
+
+![Scheduling an event](resources/image/eirmpox_008.gif)
+
+This solution will also easily flag any overdue appointment for follow-up vaccinations. More information on this solution can be found in the [“Scheduled date in edit event form”](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/tracking-individual-level-data/capture.html#scheduled-date-in-edit-event-form) section of the Capture document. 
+
+##### Option 2
+what can be done is to configure the tracker to automatically autoschedule the next vaccination date to X days from the first dose. This must be modified to match the interval used in the country by changing the setting for the vaccination program stage in the maintenance app.
 
 ![Automatic generation of a n event after the time interval. 28 days was selected as it is the recommended interval for the mpox JYNNEOS vaccine](resources/image/eirmpox_007.png)
 
@@ -139,13 +153,6 @@ In addition, there can also be a data element that auto-assigns using program ru
   - firstly to show a warning next to the data element “suggested date for next dose” with the text “Next dose should be given at X days” - please note that the DE is automatically hidden when   the event is for the last dose of the vaccine
   - secondly assign a value to the data element “suggested date for next dose” with the expression **`d2:addDays( V{event_date}, XDAYS )`**
 
-Scheduling an event is also possible in the Schedule tab next to the report tab:
-
-![Schedule the next dose](resources/image/eirmpox_009.png)
-
-This solution will also easily flag any overdue appointment for follow-up vaccinations. More information on this solution can be found in the [“Scheduled date in edit event form”](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/tracking-individual-level-data/capture.html#scheduled-date-in-edit-event-form) section of the Capture document. 
-
-![Scheduling an event](resources/image/eirmpox_008.gif)
 
 ## Adverse Events Following Immunisation
 
